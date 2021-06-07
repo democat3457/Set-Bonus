@@ -17,6 +17,8 @@ public class ServerConfig
                     "Layout is...",
                     "Equipment id, domain:item:meta > nbtkey1 = nbtvalue1 & nbtkey2 = nbtvalue2...",
                     "The equipment id must be unique, and is only used to refer to the item in the equipment set config",
+                    "If domain is not specified, it defaults to 'minecraft'",
+                    "'minecraft:air' can be used as an empty slot
                     "",
                     "eg...",
                     "",
@@ -24,6 +26,8 @@ public class ServerConfig
                     "DSword, diamond_sword",
                     "",
                     "DDagger, backstab:diamond_dagger",
+                    "",
+                    "Air, minecraft:air",
                     "",
                     "TetraSickleSingle, tetra:duplex_tool_modular > duplex/sickle_left_material & duplex/butt_right_material",
                     "",
